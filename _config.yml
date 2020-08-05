@@ -16,7 +16,7 @@ header_pages:
 encoding: "utf-8"
 
 style: dark
-#listen_for_clients_preferred_style: true # false (default) or true
+listen_for_clients_preferred_style: true # false (default) or true
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 google_analytics: UA-NNNNNNNN-N
 
