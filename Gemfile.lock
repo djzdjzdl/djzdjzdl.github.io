@@ -66,6 +66,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  jekyll-seo-tag
   jekyll-theme-console
 
 BUNDLED WITH

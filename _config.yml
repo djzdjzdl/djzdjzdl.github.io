@@ -1,4 +1,4 @@
-#title: Your awesome title
+#title: "안녕하세요"
 #email: your-email@example.com
 #description: >- # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
@@ -14,12 +14,14 @@ header_pages:
 #twitter_username: djzdjzdl
 #github_username:  djzdjzdl
 encoding: "utf-8"
+
 style: dark
-listen_for_clients_preferred_style: true # false (default) or true
+#listen_for_clients_preferred_style: true # false (default) or true
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 google_analytics: UA-NNNNNNNN-N
 
 # Build settings
 theme: jekyll-theme-console
+
 plugins:
   - jekyll-seo-tag
