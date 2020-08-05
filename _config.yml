@@ -13,7 +13,7 @@ header_pages:
 #url: "djzdjzdl.gitjub.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: djzdjzdl
 #github_username:  djzdjzdl
-
+encoding: "utf-8"
 style: dark
 listen_for_clients_preferred_style: true # false (default) or true
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
