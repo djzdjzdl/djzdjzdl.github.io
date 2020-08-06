@@ -1,23 +1,31 @@
-#title: "안녕하세요"
-#email: your-email@example.com
-#description: >- # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
+#page information
+title: djzdjzdl's Blog.
+name: Coder, Learner
+description: Learning Something
+#url: https://djzdjzdl.gitjub.io
+url: http://127.0.0.1:4000
+email: a272714@naver.com
   
 header_pages:
   - index.md
   - about.md
+  - contact.md
+  - study.md
 
-#baseurl: "/" # the subpath of your site, e.g. /blog
-#url: "djzdjzdl.gitjub.io" # the base hostname & protocol for your site, e.g. http://example.com
+pages:
+  - text.md
+
 #twitter_username: djzdjzdl
 #github_username:  djzdjzdl
+
+#Language, Timezone setting
 encoding: "utf-8"
+lang: ko
+timezone: Asia/Seoul
 
 style: dark
-listen_for_clients_preferred_style: true # false (default) or true
-footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+listen_for_clients_preferred_style: true # false (default) or true 이 부분으로 github에 적용됨
+footer: 'follow me on <a href="https://bcglab.jbnu.ac.kr">BCG Labs</a>'
 google_analytics: UA-NNNNNNNN-N
 
 # Build settings

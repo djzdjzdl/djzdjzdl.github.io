@@ -1,31 +1,16 @@
-{%- assign page_paths = site.header_pages | default: default_paths -%}
-<header>
+---
+layout: default
+title: Search
+search_omit: true
+---
 
-<!-- 메뉴 -->
-
-  <div class="menu">
-    <ul>
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-        <li>
-          
-          <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-
-<!-- 메뉴 끝 -->
-
-<!-- 검색창 -->
-
-	<ul>
-	  <!-- Search form -->
+  <h1>Search</h1>
+  
+  <!-- Search form -->
   <form method="get" action="/search" data-search-form>
-    <label for="q">검색</label>
-    <input type="search" name="q" id="q" placeholder="검색어 입력" data-search-input />
-    <input type="submit" value="검색하기" />
+    <label for="q">Search term</label>
+    <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+    <input type="submit" value="Search" />
   </form>
 
   <!-- Search results placeholder -->
@@ -33,6 +18,8 @@
     <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
   </p>
   <div data-search-results></div>
+
+
 
   <!-- Search result template -->
   <script type="text/x-template" id="search-result">
@@ -48,9 +35,3 @@
 
   <!-- Search script - Must appear after template -->
   <script src="/scripts/search.js"></script>
-  </ul>
-  </div>
-
-<!-- 검색창 끝 -->
-
-</header>
