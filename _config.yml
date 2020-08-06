@@ -2,18 +2,22 @@
 title: djzdjzdl's Blog.
 name: Coder, Learner
 description: Learning Something
-url: https://djzdjzdl.gitjub.io
-#url: http://127.0.0.1:4000
+#url: https://djzdjzdl.gitjub.io
+url: http://127.0.0.1:4000
 email: a272714@naver.com
   
 header_pages:
   - index.md
   - about.md
-  - contact.md
   - study.md
+  - contact.md
 
 pages:
-  - text.md
+  - Pwnables.md
+  - Reversing.md
+  - WebHacking.md
+  - CryptoGraphy.md
+  - Forensics.md
 
 #twitter_username: djzdjzdl
 #github_username:  djzdjzdl
@@ -24,7 +28,7 @@ lang: ko
 timezone: Asia/Seoul
 
 style: dark
-listen_for_clients_preferred_style: true # false (default) or true 이 부분으로 github에 적용됨
+listen_for_clients_preferred_style: false # false (default) or true 이 부분으로 github에 적용됨
 footer: 'follow me on <a href="https://bcglab.jbnu.ac.kr">BCG Labs</a>'
 google_analytics: UA-NNNNNNNN-N
 
