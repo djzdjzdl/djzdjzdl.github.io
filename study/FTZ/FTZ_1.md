@@ -1,7 +1,7 @@
 ---
 title: Pwnables
 layout: post
-comments:true
+comments: true
 permalink: /study/Pwnables/FTZ/FTZ_1
 ---
 
