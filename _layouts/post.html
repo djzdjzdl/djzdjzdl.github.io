@@ -1,12 +1,7 @@
 ---
 layout: default
-comments: true
 ---
 
 {{ content }}
 
-{%- if page.comments -%}
-<div id="post-discus" class="container"></div>
-{% include disqus.html %}
-</div>
-{%- endif -%}
+{% if site.disqus-shortname %} {% include disqus.html %} {% endif %}
