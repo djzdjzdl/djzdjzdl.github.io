@@ -6,4 +6,5 @@ permalink: /study/Pwnables/Ref
 
 Pwnables
 ===
-sadasdasdasdasd
+
+2020.08.10 FTZ 정리 완료
