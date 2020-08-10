@@ -1,7 +1,7 @@
 ---
 title: Pwnables
-layout: page
-permalink: /study/Pwnables/FTZ/FTZ_1
+layout: post
+permalink: /study/Pwnables/FTZ/FTZ_8
 ---
 
 Pwnables

@@ -32,11 +32,11 @@ listen_for_clients_preferred_style: false # false (default) or true 이 부분�
 footer: 'follow me on <a href="https://bcglab.jbnu.ac.kr">BCG Labs</a>'
 google_analytics: UA-NNNNNNNN-N
 
+disqus_shortname: https-djzdjzdl-github-io-1
+
 # Build settings
 remote_theme: b2a3e8/jekyll-theme-console
 theme: jekyll-theme-console
 
 plugins:
   - jekyll-seo-tag
-
-disqus_shortname: https-djzdjzdl-github-io-1

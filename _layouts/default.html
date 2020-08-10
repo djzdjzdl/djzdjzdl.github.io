@@ -10,11 +10,10 @@
 
     <main>
       {{ content }}
+      {%- if page.comments -%} {%- include disqus.html -%} {%- endif -%}
     </main>
 
     {%- include footer.html -%}
-
     </div>
-    <script id="dsq-count-scr" src="//https-djzdjzdl-github-io-1.disqus.com/count.js" async></script>
   </body>
 </html>
